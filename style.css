@@ -28,7 +28,7 @@ body {
 
 
 .creds_txt {
-    height: 80%;
+    height: auto;
     width: 75%;
     right: 0;
     color: #f1f1f1;
