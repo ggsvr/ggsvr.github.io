@@ -22,15 +22,10 @@ body {
     position: fixed;
     z-index: 1;
     bottom: 0;
-    right: -19.5%;
-    overflow: hidden;
-    transition: 0.3s;
-}
-
-
-.credits:hover {
     right: 0;
+    overflow: hidden;
 }
+
 
 .creds_txt {
     height: 80%;
@@ -39,7 +34,7 @@ body {
     color: #f1f1f1;
     background-color: #00362d;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    font-size: 1.7vh;
+    font-size: 2vh;
 
 
 
@@ -47,15 +42,13 @@ body {
     padding-right: 5%;
 }
 
-
-.handle {
-    width: 20%;
-    left: 2%;
-    background-color: #00362d;
-    height: 50%;
-    position: absolute;
+.inline-img {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 
 /* The navigation menu links */
 .sidenav a {
@@ -76,11 +69,11 @@ body {
 .main {
     background: #CACF85;
     width: 50%;
-    height: 100%;
+    height: auto;
     font-family: Roboto;
     margin-left: auto; /* Same as the width of the sidebar */
     margin-right: auto; /* Same as the width of the sidebar */
-    padding: 5px 10px;
+    padding: 10px 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
