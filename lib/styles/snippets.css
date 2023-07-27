@@ -1,0 +1,12 @@
+
+/* --- big-math.css --- */  
+ mjx-math {
+  font-size: 130% !important;
+}
+
+.math-block > mjx-container[jax="CHTML"]  {
+  text-align: left !important;
+}
+  
+
+
